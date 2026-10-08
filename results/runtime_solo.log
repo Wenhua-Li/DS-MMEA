@@ -1,0 +1,14 @@
+measure_runtime_solo (sequential, no parpool, 3 runs/cell)
+config                   MMF1       IDMPM3T2     IDMPM2T2_e Polygon_M6_D10       mean
+CoSEA                    1.02           2.03           1.10           2.98       1.78
+CoSEA_off                0.83           1.98           1.11           3.11       1.76
+CoSEA_v07                0.78           2.13           1.06           3.05       1.76
+CoMMEA                   4.59          10.49           4.13          18.88       9.52
+HREA                     4.80          12.55          15.11          32.16      16.16
+MMOEADC                  2.57           3.21           1.94           9.63       4.34
+TriMOEATAR               0.81           1.60           0.93           3.58       1.73
+HHCMMEA                  1.17           1.38           0.92          14.50       4.49
+CMMO                     2.41           4.27           2.10          10.35       4.78
+MRCoSEA31                1.40           4.27           2.39           8.52       4.15
+MSCoSEA                  2.30          11.49           5.55          16.19       8.88
+MSCoSEA_nomani           2.25           4.50           2.59           9.75       4.77

@@ -1,0 +1,63 @@
+NOTICE — third-party code and data used in this repository
+===========================================================
+
+This repository contains the MSCoSEA algorithm together with a slim copy of
+the PlatEMO platform, ports of the baseline algorithms compared in the paper,
+and third-party benchmark suites. All third-party components are listed below
+with their origin. They remain the work of their respective authors and are
+included solely for reproducibility of the published comparison.
+
+Platform
+--------
+* PlatEMO — Tian, Y., Cheng, R., Zhang, X., Jin, Y., "PlatEMO: A MATLAB
+  Platform for Evolutionary Multi-Objective Optimization [Educational Forum]",
+  IEEE Computational Intelligence Magazine, 2017.
+  The `PlatEMO/` folder of this repository is a slimmed copy of the platform
+  (GUI and unrelated algorithm/problem packages removed).
+
+Benchmark problems
+------------------
+* MMF suite (MMF1-MMF15 and variants) — standard multimodal multiobjective
+  benchmarks; see Yue, C., Qu, B., Yu, K., Liang, J., Li, X., "A Novel Scalable
+  Test Problem Suite for Multimodal Multiobjective Optimization", Swarm and
+  Evolutionary Computation, 2019, and the PlatEMO distribution.
+* IDMP suite (IDMPM*T*, IDMP*_e) — Liu, Y., Ishibuchi, H., Yen, G. G.,
+  Nojima, Y., Masuyama, N., "Handling Imbalance Between Convergence and
+  Diversity in the Decision Space in Evolutionary Multimodal Multiobjective
+  Optimization", IEEE Transactions on Evolutionary Computation, 2020.
+* NMMF suite (NMMF1-NMMF15) and its reference PS/PF data
+  (`PlatEMO/Problems/Multi-objective optimization/HDMMF/NMMF*_Reference_PSPF_data.mat`)
+  — from the authors of the suite above; mode partitions used in the paper are
+  obtained by connectivity clustering of the published reference sets.
+* Polygon problems (`Polygon_p`, parameterized) — introduced in the present
+  paper.
+
+Baseline algorithms (paper name — folder under PlatEMO/Algorithms)
+------------------------------------------------------------------
+* HREA                (`HREA`) — Li, W., Yao, X., Zhang, T., Wang, R., Wang, L.,
+  "Hierarchy Ranking Method for Multimodal Multiobjective Optimization with
+  Local Pareto Fronts", IEEE Transactions on Evolutionary Computation, 2023
+  (authors' prior work).
+* MMOEA-DC            (`MMOEAC`) — Lin, Q., Lin, W., Zhu, Z., Gong, M., Li, J.,
+  Coello, C. A. C., "Multimodal Multiobjective Evolutionary Optimization with
+  Dual Clustering in Decision and Objective Spaces", IEEE Transactions on
+  Evolutionary Computation, 2021.
+* CMMO                (`CMMO`) — Ming, F., Gong, W., Wang, L., Gao, L.,
+  "Balancing Convergence and Diversity in Objective and Decision Spaces for
+  Multimodal Multi-Objective Optimization", IEEE Transactions on Emerging
+  Topics in Computational Intelligence, 2023.
+* TriMOEA-TA&R        (`TriMOEA-TA&R`) — Liu, Y., Yen, G. G., Gong, D., "A
+  Multimodal Multiobjective Evolutionary Algorithm Using Two-Archive and
+  Recombination Strategies", IEEE Transactions on Evolutionary Computation, 2019.
+* HHC-MMEA            (`HHC-MMEA`) — Ding, Z., Cao, L., Chen, L., Sun, D.,
+  Zhang, X., Tao, Z., "Large-Scale Multimodal Multiobjective Evolutionary
+  Optimization Based on Hybrid Hierarchical Clustering", Knowledge-Based
+  Systems, 2023.
+* HDMMODE             (`HDMMODE`) — Liang, J., Lin, H., Yue, C., Suganthan,
+  P. N., Wang, Y., "Multiobjective Differential Evolution for
+  Higher-Dimensional Multimodal Multiobjective Optimization", IEEE/CAA Journal
+  of Automatica Sinica, 2024.
+* FPITSEA             (`FPITSEA`) — Xie, Y., Li, J., Li, Y., Zhu, W., Dai, C.,
+  "Two-Stage Evolutionary Algorithm with Fuzzy Preference Indicator for
+  Multimodal Multi-Objective Optimization", Swarm and Evolutionary
+  Computation, 2024.

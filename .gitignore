@@ -1,0 +1,16 @@
+# generated outputs of the analysis scripts
+analysis/out/
+
+# MATLAB
+*.asv
+*.mex*
+slprj/
+*.autosave
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# on-disk truth cache written by CoSEATruePS at first use (safe to delete)
+exp/
